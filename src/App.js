@@ -1,12 +1,12 @@
 import React from 'react';
-import TodaysScore from './components/TodaysScore'
 import './App.css';
+import TodaysGame from './Components/TodaysGame'
 
 function App() {
   return (
     <div>
-    <h1 className='DTAWT'> Did the Astros Win Today? </h1>
-    <TodaysScore />
+    <h1 className='header-text'>Did the Astros win today?</h1>
+    <TodaysGame />
     </div>
   );
 }
